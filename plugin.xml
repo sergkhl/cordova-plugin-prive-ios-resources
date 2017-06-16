@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin id="cordova-plugin-prive-ios-resources" version="0.0.3" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+<plugin id="cordova-plugin-prive-ios-resources" version="0.0.4" xmlns="http://apache.org/cordova/ns/plugins/1.0">
 
     <name>Prive iOS Resources</name>
 
@@ -20,8 +20,10 @@
                     <string>ScanQR</string>
                     <key>UIApplicationShortcutItemTitle</key>
                     <string>Scan QR Code</string>
+                    <key>UIApplicationShortcutItemSubtitle</key>
+                    <string>Quickly Scan Guest's QR Code</string>
                     <key>UIApplicationShortcutItemType</key>
-                    <string>ScanQR</string>
+                    <string>scanqr</string>
                 </dict>
             </array>
         </config-file>
