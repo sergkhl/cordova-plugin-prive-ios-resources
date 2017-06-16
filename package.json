@@ -1,6 +1,6 @@
 {
     "name": "cordova-plugin-prive-ios-resources",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "This plugin copies the required iOS resources to the project",
     "author": "Sergio Khlopenkov",
     "license": "MIT",
