@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="cordova-plugin-prive-ios-resources" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+
+    <name>Prive iOS Resources</name>
+
+    <description>This plugin copies the required iOS resources to the project</description>
+
+    <author>Sergio Khlopenkov</author>
+
+    <license>MIT</license>
+
+    <platform name="ios">
+        <resource-file src="ScanQR@2x.png"/>
+        <resource-file src="ScanQR@3x.png"/>
+    </platform>
+
+</plugin>
