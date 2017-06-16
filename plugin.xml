@@ -12,6 +12,19 @@
     <platform name="ios">
         <resource-file src="ScanQR@2x.png"/>
         <resource-file src="ScanQR@3x.png"/>
+
+        <config-file target="*-Info.plist" parent="UIApplicationShortcutItems">
+            <array>
+                <dict>
+                    <key>UIApplicationShortcutItemIconFile</key>
+                    <string>ScanQR</string>
+                    <key>UIApplicationShortcutItemTitle</key>
+                    <string>Scan QR Code</string>
+                    <key>UIApplicationShortcutItemType</key>
+                    <string>ScanQR</string>
+                </dict>
+            </array>
+        </config-file>
     </platform>
 
 </plugin>
